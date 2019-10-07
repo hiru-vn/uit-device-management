@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+img {
+    height: 7em;
+    width: auto;
+}
+.search {
+    align-self: left;
+}

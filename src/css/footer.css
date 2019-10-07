@@ -1,0 +1,9 @@
+.footer{
+    background-color: #eee;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-color: #ccc;
+    border-width: thin;
+    border-style: solid;
+    padding: 18px;
+}

@@ -1,0 +1,14 @@
+.navbar {
+    border-radius: 5px;
+    background-color: #0078C1;
+    border-color: #ccc;
+    border-width: thin;
+    border-style: solid;
+    padding: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+button {
+    background-color: #fff;
+}
