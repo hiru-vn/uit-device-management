@@ -7,7 +7,7 @@ import '../../css/aside.css'
 class Aside extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div>
                 <Login/>
                 <Forms/>
                 <LinkSites/>

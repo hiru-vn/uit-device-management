@@ -20,3 +20,62 @@
 .App-link {
   color: #09d3ac;
 }
+
+@media (min-width: 1300px){
+.container {
+    max-width: 1240px !important;
+}}
+@media (max-width: 900px){
+  .body{
+    flex-direction: column !important;
+  }
+}
+
+.switchPages {
+  padding: 1em;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+}
+
+.bodyTitle{
+
+}
+
+.body-navpages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.body-navpages-container h5 {
+  text-align: left;
+  color: #08c;
+}
+
+.body-navpages-container p {
+  text-align: left;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+.body-navpages-container .item-title {
+  color: #08c;
+  font-weight: 500;
+}
+.body-navpages-container .item-datetime{
+  font-size: 0.8em;
+  font-style: italic;
+}
+.body-navpages-container .item-content{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em;
+  max-height: 6em;
+}
+

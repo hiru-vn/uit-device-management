@@ -1,12 +1,29 @@
 .header {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    justify-content: space-between;
+    align-items: 'center';
 }
 img {
     height: 7em;
     width: auto;
 }
+
+@media (max-width: 900px){
+.header{
+    display: flex;
+    flex-direction: column;
+}
 .search {
-    align-self: left;
+    margin-bottom: .5rem;
+}
+@media (max-width: 550px){
+    .search {
+        flex-direction: row !important;
+    }
+    .search input {
+        width: 100%;
+        margin-right: .375rem;
+    }
+}
 }

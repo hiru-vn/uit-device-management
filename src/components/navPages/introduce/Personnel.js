@@ -1,13 +1,13 @@
 import React from 'react'
 
-class News extends React.Component {
+class Personnel extends React.Component {
     render() {
         return (
             <div className="body-navpages-container">
-                <h5>Thông báo</h5>
+                <h5>Nhân sự</h5>
             </div>
         )
     }
 }
 
-export default News
+export default Personnel

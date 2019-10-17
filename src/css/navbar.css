@@ -12,3 +12,17 @@
 button {
     background-color: #fff;
 }
+
+li {
+    margin-right: 1em;
+}
+
+li a.nav-link-white {
+    color: #f9f9f9 !important;
+}
+
+li a.dropdown-item {
+    color: #111 !important;
+}
+
+

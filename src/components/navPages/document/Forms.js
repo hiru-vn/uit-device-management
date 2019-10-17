@@ -1,13 +1,14 @@
 import React from 'react'
 
-class News extends React.Component {
+class Forms extends React.Component {
     render() {
         return (
             <div className="body-navpages-container">
-                <h5>Thông báo</h5>
+                <h5>Biểu mẫu</h5>
+                <p>Forms</p>
             </div>
         )
     }
 }
 
-export default News
+export default Forms

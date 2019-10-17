@@ -23,7 +23,7 @@ class Login extends React.Component {
                         <small style={{ textAlign: "right", fontSize: 12 }}>mật khẩu chứng thực</small>
                     </div>
                     <div className="mt-1">
-                        <button type="button" class="btn btn-primary gradient">Primary</button>
+                        <button type="button" class="btn btn-primary gradient">Đăng nhập</button>
                     </div>
                 </div>
             </div>
